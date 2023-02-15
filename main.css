@@ -1,0 +1,40 @@
+body{
+    background: black;
+    color: white;
+}
+
+.sidebar{
+    width: 150px;
+    position: absolute;
+    height: 100vh;
+    background: #1D1D22;
+}
+
+.sidebar a, .sidebar a.active, .sidebar a:hover, .sidebar .logo{
+    background: #1D1D22;
+    text-align: center;
+    border: 0px;
+}
+
+.sidebar a .bi{
+    font-size: 30px;
+}
+
+.sidebar  a.active .bi{
+    font-size: 50px;
+}
+
+.sidebar a:not(.active), .sidebar .logo{
+    color: white;
+}
+
+.sidebar .logo{
+    border-bottom: 6px solid black;
+}
+.sidebar a.active{
+    color: green;
+}
+
+.content-side{
+    margin-left: 200px;
+}
